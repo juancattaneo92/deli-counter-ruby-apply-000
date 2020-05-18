@@ -15,9 +15,6 @@ def line(katz_deli="empty")
   puts current_line
 end
 
-puts line()
-puts line("adam")
-
 def now_serving(katz_deli="There is nobody waiting to be served!")
   puts katz_deli
 end
