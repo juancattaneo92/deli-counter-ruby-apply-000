@@ -7,6 +7,7 @@ def take_a_number(katz_deli, number)
 end
 
 def line(katz_deli="empty")
+  i
   puts "The line is currently #{katz_deli}."
 end
 
