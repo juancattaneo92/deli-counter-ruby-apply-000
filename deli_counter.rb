@@ -5,7 +5,7 @@ def take_a_number(katz_deli, name)
 end
 
 def line(katz_deli="empty")
-  puts "The line is currently " + "katz_deli" + "."
+  puts "The line is currently #{katz_deli}."
 end
 
 def now_serving(katz_deli)
