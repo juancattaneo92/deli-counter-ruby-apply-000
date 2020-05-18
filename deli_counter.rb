@@ -7,9 +7,16 @@ def take_a_number(katz_deli, number)
 end
 
 def line(katz_deli="empty")
-  i
-  puts "The line is currently #{katz_deli}."
+
+  current_line = ["The line is currently #{katz_deli}."]
+  katz_deli.each.with_index do |name, i|
+    current_line << "#{i}. #{name} "
+  end
+  puts current_line
 end
+
+puts line()
+puts line("adam")
 
 def now_serving(katz_deli="There is nobody waiting to be served!")
   puts katz_deli
