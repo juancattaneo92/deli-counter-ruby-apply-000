@@ -2,6 +2,7 @@
 
 def take_a_number(katz_deli, number)
   puts "Welcome #{katz_deli}. You are number #{number} in line."
+  
 end
 
 def line(katz_deli="empty")
