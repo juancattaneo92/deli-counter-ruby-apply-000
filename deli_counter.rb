@@ -8,6 +8,6 @@ def line(katz_deli="empty")
   puts "The line is currently #{katz_deli}."
 end
 
-def now_serving(katz_deli)
-  #"Currently serving NAME".
+def now_serving(katz_deli="There is nobody waiting to be served!")
+  puts katz_deli
 end
